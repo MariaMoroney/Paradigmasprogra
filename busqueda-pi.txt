@@ -1,0 +1,69 @@
+RESULTADOS DE BUSQUEDA EN PI
+========================================
+
+Requerimiento 1:
+todas las ocurrencias de la secuencia 1415
+Expresion regular: 1415
+Cantidad de resultados: 113
+------------------------------
+
+Requerimiento 2:
+secuencia 1415 seguida de un dígito impar
+Expresion regular: 1415[13579]
+Cantidad de resultados: 63
+------------------------------
+
+Requerimiento 3:
+3 dígitos pares seguidos
+Expresion regular: [02468]{3}
+Cantidad de resultados: 89277
+------------------------------
+
+Requerimiento 4:
+3 dígitos pares seguidos de un 9
+Expresion regular: [02468]{3}9
+Cantidad de resultados: 15547
+------------------------------
+
+Requerimiento 5:
+3 dígitos pares seguidos de un dígito impar
+Expresion regular: [02468]{3}[13579]
+Cantidad de resultados: 78097
+------------------------------
+
+Requerimiento 6:
+3 dígitos pares seguidos de 0 o 9
+Expresion regular: [02468]{3}[09]
+Cantidad de resultados: 26482
+------------------------------
+
+Requerimiento 7:
+2 dígitos pares seguidos que pueden venir seguidos de 1 o 3 dígitos impares
+Expresion regular: [02468]{2}([13579]{1}|[13579]{3})?
+Cantidad de resultados: 207897
+------------------------------
+
+Requerimiento 8:
+2 dígitos impares seguidos de un 0
+Expresion regular: [13579]{2}0
+Cantidad de resultados: 31250
+------------------------------
+
+Requerimiento 9:
+1 dígito impar seguido de al menos 2 dígitos pares
+Expresion regular: [13579][02468]{2,}
+Cantidad de resultados: 155982
+------------------------------
+
+Requerimiento 10:
+ocurrencias de 111,113,115,117 o 119
+Expresion regular: 11[13579]
+Cantidad de resultados: 5696
+------------------------------
+
+Requerimiento 11:
+111,113,115,117 o 119 seguidos de un dígito par
+Expresion regular: 11[13579][02468]
+Cantidad de resultados: 3062
+------------------------------
+

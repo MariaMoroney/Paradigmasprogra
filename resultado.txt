@@ -1,0 +1,29 @@
+Analizador Little English
+Archivo de entrada: test.txt
+Archivo de salida: resultado.txt
+========================
+
+Linea 1: I like the cat.
+Analisis lexico: EXITOSO
+Analisis sintactico: EXITOSO
+
+Linea 2: The rat sees me.
+Analisis lexico: EXITOSO
+Analisis sintactico: EXITOSO
+
+Linea 3: A cat is a mat.
+Analisis lexico: EXITOSO
+Analisis sintactico: EXITOSO
+
+Linea 4: I see the rat.
+Analisis lexico: EXITOSO
+Analisis sintactico: EXITOSO
+
+Linea 5: The dog likes me.
+Analisis lexico: FALLO - Token invalido: dog
+Analisis sintactico: NO EJECUTADO
+
+Linea 6: I like cat.
+Analisis lexico: EXITOSO
+Analisis sintactico: FALLO - Se esperaba objeto valido
+

@@ -1,0 +1,73 @@
+RESULTADOS DE BUSQUEDA EN EL QUIJOTE
+=============================================
+
+Requerimiento 1:
+cabeceras de capitulo
+Expresion regular: CAP[ÍI]TULO\s+[IVXLCDM]+.*
+Cantidad: 127
+Linea 740: Capítulo II. Que trata de la primera salida que de su tierra hizo el
+Linea 964: Capítulo III. Donde se cuenta la graciosa manera que tuvo don Quijote en
+Linea 1180: Capítulo IV. De lo que le sucedió a nuestro caballero cuando salió de la
+Linea 1430: Capítulo V. Donde se prosigue la narración de la desgracia de nuestro
+Linea 1597: Capítulo VI. Del donoso y grande escrutinio que el cura y el barbero
+Linea 1885: Capítulo VII. De la segunda salida de nuestro buen caballero don Quijote de
+Linea 2075: Capítulo VIII. Del buen suceso que el valeroso don Quijote tuvo en la
+Linea 2385: Capítulo IX. Donde se concluye y da fin a la estupenda batalla que el
+Linea 2566: Capítulo X. De lo que más le avino a don Quijote con el vizcaíno, y del
+Linea 2764: Capítulo XI. De lo que le sucedió a don Quijote con unos cabreros
+------------------------------
+
+Requerimiento 2:
+uso de "y" para enumerar
+Expresion regular: \b\w+\s+y\s+\w+\b
+Cantidad: 7933
+Linea 7: certifico y doy
+Linea 10: maravedís y medio
+Linea 10: ochenta y tres
+Linea 11: docientos y noventa
+Linea 11: maravedís y medio
+Linea 16: seiscientos y cuatro
+Linea 33: trabajo y era
+Linea 33: útil y provechoso
+Linea 34: pedistes y suplicastes
+Linea 34: licencia y facultad
+------------------------------
+
+Requerimiento 3:
+silabas pra-pre-pri-pro-pru seguidas de d
+Expresion regular: \b\w*pr[aeiou]d\w*\b
+Cantidad: 121
+Linea 97: prudencia
+Linea 180: prudente
+Linea 280: predicar
+Linea 294: prudente
+Linea 561: prudencia
+Linea 1795: prados
+Linea 3901: prado
+Linea 4924: prados
+Linea 5061: prados
+Linea 5074: predicador
+------------------------------
+
+Requerimiento 4:
+palabras distintas que empiezan con cra-cre-cri-cro-cru
+Expresion regular: \bcr[aeiou]\w*\b
+Palabras distintas: 113
+Total ocurrencias: 867
+crea, creas, crece, crecen, crecer, crecida, crecidas, crecido, crecidos, creciendo, creció, crecía, credite, credo, credos, 
+------------------------------
+
+Requerimiento 5:
+palabras que terminan en cho-cha-che-chi-chu
+Expresion regular: \b\w*ch[aeiou]\b
+Cantidad: 4513
+Linea 1: Mancha
+Linea 8: Mancha
+Linea 9: dicho
+Linea 11: dicho
+Linea 11: dicho
+Linea 13: dicho
+Linea 31: fecha
+Linea 33: Mancha
+Linea 33: mucho
+Linea 37: dicho
